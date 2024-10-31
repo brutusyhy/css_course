@@ -1,0 +1,51 @@
+/* Reset
+margin and padding can be affected by defautl
+border-box includes padding and border
+content-box only considers content size
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* relative to parent */
+header {
+    width: 50%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    /* 100vw does not account for scrollbar
+    but 100% does*/
+}
+
+/* relative to the font size of the root */
+/* rem is better than em, since em can get amplified */
+main {
+    font-size: 1.25rem;
+    width: 50%;
+    background-color: skyblue;
+}
+
+
+p {
+    width: 40ch;
+}
+
+.container {
+    border: 2px dashed red;
+    border-top: 5px solid #00f;
+    border-right: 3px dotted green;
+    border-left: 1px double black;
+    padding: 1.5rem;
+    margin: 1.5em 2em 2em; /* 1.5 top, 2em left and right, 2em bottom */
+}
+
+.circle {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    outline: 2px solid #00f;
+    border-radius: 50px;
+}

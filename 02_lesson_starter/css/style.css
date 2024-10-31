@@ -1,0 +1,50 @@
+/*
+Universal selector
+* {
+
+}
+Usually used to reset css
+ */
+
+/*
+Element Selector
+*/
+body {
+    font-size: 22px;
+}
+
+/*
+Group Selector
+ */
+h1, h2 {
+    font-weight: bold;
+}
+
+/*
+Nested Selector
+span within p
+ */
+p span {
+    text-transform: uppercase;
+    background-color: orange;
+}
+
+/*
+Class Selector
+More specific than element selector
+*/
+.gray {
+    color: gray;
+}
+
+.highlight {
+    background-color: orange;
+}
+
+/*
+Id selector
+Not Recommended
+ */
+#second {
+    font-style: italic;
+}

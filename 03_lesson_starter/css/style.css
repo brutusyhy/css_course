@@ -2,4 +2,19 @@ body {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background: papayawhip;
+    color: rgb(255, 0, 0);
 }
+
+p {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+p {
+    color: #333;
+}
+
+/*
+Use coolors.co to select color pallet
+Contrast and accessibility
+*/

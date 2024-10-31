@@ -5,3 +5,25 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+ol {
+  list-style-type: upper-roman;
+  /* <ol start="3" reversed>*/
+}
+
+ul {
+  color: blue;
+  /*list-style: square url("../images/checkmark.png");*/
+  list-style-position: inside;
+}
+
+ul li:nth-child(even) {
+  color: red;
+}
+
+/* Pseudo-element */
+ul ::marker {
+  color: purple;
+  font-family: fantasy;
+  content: "Only $5 >>"
+}

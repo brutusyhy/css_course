@@ -5,3 +5,33 @@ body {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Default styles for link <a>
+Underline
+Unvisited: blue
+Visited: purple
+Pressed: red
+Cursor: pointer
+ */
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+/*
+Pseudo-class: state of the element
+ */
+a:visited {
+    color: purple;
+}
+a:hover, a:focus {
+    /*color: dodgerblue;*/
+    opacity: 0.5;
+    background-color: orange;
+
+}
+a:active {
+    color: red;
+}
